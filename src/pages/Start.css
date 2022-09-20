@@ -1,0 +1,14 @@
+.startPage {
+  min-height: 100vh;
+  background-color: var(--base);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.startPage img {
+    width: 150px;
+}
