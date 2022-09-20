@@ -6,6 +6,11 @@ function Card() {
     <div className="card">
       <div className="up">
         <img src="/henessy.jpg" alt="" />
+        <div className="action">
+          <img src="/rheart.svg" alt="" />
+          <img src="/star.svg" alt="" />
+          <img src="/close.svg" alt="" />
+        </div>
       </div>
       <div className="down">
         <h3 className="name">Tatiana Saris</h3>
