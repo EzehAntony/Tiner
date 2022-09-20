@@ -1,4 +1,8 @@
 .homePage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .homePage header {
@@ -26,8 +30,7 @@
 }
 
 .homePage header img {
-  width: 30px;
-  margin: 0 10px;
+  width: 25px;
   cursor: pointer;
   user-select: none;
   -webkit-user-drag: none;
@@ -36,10 +39,12 @@
 .main {
   width: 90%;
   background-color: transparent;
-  border: 2px solid var(--base);
-  min-height: 330px;
-  max-width: 900px;
+  max-width: 600px;
   margin: auto;
-  border-radius: 20px 20px 5px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
+  margin-bottom: 100px;
 }
+
